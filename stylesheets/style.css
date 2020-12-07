@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto/9;
+}
+#ketxurdin {
+  transform: scale(1.3);
+}
+
+#libertad {
+  transform: scale(2.3);
+  -webkit-transform-origin-x: 0%;
+  -webkit-transform-origin-y: 20%;
+}
+
+#influencers {
+  transform: scale(2.5);
+  -webkit-transform-origin-y: 54%;
+}
+
+main > div {
+  overflow: hidden;
+  width: 33vw;
+  height: 25vw;
+  border: 2px solid indigo;
+}
